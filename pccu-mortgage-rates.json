@@ -1,0 +1,2079 @@
+{
+  "rates": [
+    {
+      "id": "SVRR-OO_95_2m_variable_PI",
+      "rateRefId": "",
+      "features": {
+        "offset": 0,
+        "extraRepayment": 0
+      },
+      "rateBase": 4.9,
+      "rateDiscount": 0,
+      "rateCalculated": 4.9,
+      "comparisonRate": "4.95% p.a.",
+      "hasRevert": false,
+      "rateRevert": -1,
+      "loanMin": 20000,
+      "loanMax": 2000000,
+      "termMin": 0,
+      "termMax": 30,
+      "lvrMin": 0,
+      "lvrMax": 95,
+      "activeRateIds": [
+        "SVRR-OO[0]"
+      ]
+    },
+    {
+      "id": "SVRR-OO_95_2m_variable_5_IO",
+      "rateRefId": "",
+      "features": {
+        "offset": 0,
+        "extraRepayment": 0
+      },
+      "rateBase": 5.45,
+      "rateDiscount": 0,
+      "rateCalculated": 5.45,
+      "comparisonRate": "5.50% p.a.",
+      "hasRevert": true,
+      "rateRevert": 4.9,
+      "loanMin": 20000,
+      "loanMax": 2000000,
+      "termMin": 5,
+      "termMax": 30,
+      "lvrMin": 0,
+      "lvrMax": 95,
+      "activeRateIds": [
+        "SVRR-OO[1]",
+        "SVRR-OO[0]"
+      ]
+    },
+    {
+      "id": "SV-OO_95_2m_variable_PI",
+      "rateRefId": "",
+      "features": {
+        "offset": 0,
+        "extraRepayment": 0
+      },
+      "rateBase": 4.9,
+      "rateDiscount": 0,
+      "rateCalculated": 4.9,
+      "comparisonRate": "4.95% p.a.",
+      "hasRevert": false,
+      "rateRevert": -1,
+      "loanMin": 20000,
+      "loanMax": 2000000,
+      "termMin": 0,
+      "termMax": 30,
+      "lvrMin": 0,
+      "lvrMax": 95,
+      "activeRateIds": [
+        "SV-OO[0]"
+      ]
+    },
+    {
+      "id": "SV-OO_95_2m_variable_5_IO",
+      "rateRefId": "",
+      "features": {
+        "offset": 0,
+        "extraRepayment": 0
+      },
+      "rateBase": 5.45,
+      "rateDiscount": 0,
+      "rateCalculated": 5.45,
+      "comparisonRate": "5.50% p.a.",
+      "hasRevert": true,
+      "rateRevert": 4.9,
+      "loanMin": 20000,
+      "loanMax": 2000000,
+      "termMin": 5,
+      "termMax": 30,
+      "lvrMin": 0,
+      "lvrMax": 95,
+      "activeRateIds": [
+        "SV-OO[1]",
+        "SV-OO[0]"
+      ]
+    },
+    {
+      "id": "BV-OO_80_2m_variable_PI",
+      "rateRefId": "",
+      "features": {
+        "offset": 0,
+        "extraRepayment": 0
+      },
+      "rateBase": 4.07,
+      "rateDiscount": 0,
+      "rateCalculated": 4.07,
+      "comparisonRate": "4.12% p.a.",
+      "hasRevert": false,
+      "rateRevert": -1,
+      "loanMin": 50000,
+      "loanMax": 2000000,
+      "termMin": 0,
+      "termMax": 30,
+      "lvrMin": 0,
+      "lvrMax": 80,
+      "activeRateIds": [
+        "BV-OO[0]"
+      ]
+    },
+    {
+      "id": "BV-OO_80-95_2m_variable_PI",
+      "rateRefId": "",
+      "features": {
+        "offset": 0,
+        "extraRepayment": 0
+      },
+      "rateBase": 4.32,
+      "rateDiscount": 0,
+      "rateCalculated": 4.32,
+      "comparisonRate": "4.37% p.a.",
+      "hasRevert": false,
+      "rateRevert": -1,
+      "loanMin": 50000,
+      "loanMax": 2000000,
+      "termMin": 0,
+      "termMax": 30,
+      "lvrMin": 80,
+      "lvrMax": 95,
+      "activeRateIds": [
+        "BV-OO[1]"
+      ]
+    },
+    {
+      "id": "BV-OO_80-95_2m_variable_5_IO",
+      "rateRefId": "",
+      "features": {
+        "offset": 0,
+        "extraRepayment": 0
+      },
+      "rateBase": 4.62,
+      "rateDiscount": 0,
+      "rateCalculated": 4.62,
+      "comparisonRate": "4.67% p.a.",
+      "hasRevert": true,
+      "rateRevert": 4.32,
+      "loanMin": 50000,
+      "loanMax": 2000000,
+      "termMin": 5,
+      "termMax": 30,
+      "lvrMin": 80,
+      "lvrMax": 95,
+      "activeRateIds": [
+        "BV-OO[2]",
+        "BV-OO[1]"
+      ]
+    },
+    {
+      "id": "BV-OO_80-95_2m_variable_5_IO",
+      "rateRefId": "",
+      "features": {
+        "offset": 0,
+        "extraRepayment": 0
+      },
+      "rateBase": 4.87,
+      "rateDiscount": 0,
+      "rateCalculated": 4.87,
+      "comparisonRate": "4.92% p.a.",
+      "hasRevert": true,
+      "rateRevert": 4.32,
+      "loanMin": 50000,
+      "loanMax": 2000000,
+      "termMin": 5,
+      "termMax": 30,
+      "lvrMin": 80,
+      "lvrMax": 95,
+      "activeRateIds": [
+        "BV-OO[3]",
+        "BV-OO[1]"
+      ]
+    },
+    {
+      "id": "1YFR-OO_95_2m_fixed_1_PI",
+      "rateRefId": "",
+      "features": {
+        "offset": 0,
+        "extraRepayment": 0
+      },
+      "rateBase": 3.14,
+      "rateDiscount": 0,
+      "rateCalculated": 3.14,
+      "comparisonRate": "4.87% p.a.",
+      "hasRevert": true,
+      "rateRevert": 4.9,
+      "loanMin": 20000,
+      "loanMax": 2000000,
+      "termMin": 1,
+      "termMax": 30,
+      "lvrMin": 0,
+      "lvrMax": 95,
+      "activeRateIds": [
+        "1YFR-OO[0]",
+        "1YFR-OO[2]"
+      ]
+    },
+    {
+      "id": "1YFR-OO_95_2m_fixed_1_IO",
+      "rateRefId": "",
+      "features": {
+        "offset": 0,
+        "extraRepayment": 0
+      },
+      "rateBase": 3.89,
+      "rateDiscount": 0,
+      "rateCalculated": 3.89,
+      "comparisonRate": "5.44% p.a.",
+      "hasRevert": true,
+      "rateRevert": 4.9,
+      "loanMin": 20000,
+      "loanMax": 2000000,
+      "termMin": 1,
+      "termMax": 30,
+      "lvrMin": 0,
+      "lvrMax": 95,
+      "activeRateIds": [
+        "1YFR-OO[1]",
+        "1YFR-OO[2]"
+      ]
+    },
+    {
+      "id": "1YFR-OO_95_2m_fixed_1_PI",
+      "rateRefId": "",
+      "features": {
+        "offset": 0,
+        "extraRepayment": 0
+      },
+      "rateBase": 3.14,
+      "rateDiscount": 0,
+      "rateCalculated": 3.14,
+      "comparisonRate": "4.87% p.a.",
+      "hasRevert": true,
+      "rateRevert": 4.9,
+      "loanMin": 20000,
+      "loanMax": 2000000,
+      "termMin": 1,
+      "termMax": 30,
+      "lvrMin": 0,
+      "lvrMax": 95,
+      "activeRateIds": [
+        "1YFR-OO[0]",
+        "1YFR-OO[2]"
+      ]
+    },
+    {
+      "id": "2YFR-OO_95_2m_fixed_2_PI",
+      "rateRefId": "",
+      "features": {
+        "offset": 0,
+        "extraRepayment": 0
+      },
+      "rateBase": 3.14,
+      "rateDiscount": 0,
+      "rateCalculated": 3.14,
+      "comparisonRate": "4.72% p.a.",
+      "hasRevert": true,
+      "rateRevert": 4.9,
+      "loanMin": 20000,
+      "loanMax": 2000000,
+      "termMin": 2,
+      "termMax": 30,
+      "lvrMin": 0,
+      "lvrMax": 95,
+      "activeRateIds": [
+        "2YFR-OO[0]",
+        "2YFR-OO[2]"
+      ]
+    },
+    {
+      "id": "2YFR-OO_95_2m_fixed_2_IO",
+      "rateRefId": "",
+      "features": {
+        "offset": 0,
+        "extraRepayment": 0
+      },
+      "rateBase": 3.89,
+      "rateDiscount": 0,
+      "rateCalculated": 3.89,
+      "comparisonRate": "5.30% p.a.",
+      "hasRevert": true,
+      "rateRevert": 4.9,
+      "loanMin": 20000,
+      "loanMax": 2000000,
+      "termMin": 2,
+      "termMax": 30,
+      "lvrMin": 0,
+      "lvrMax": 95,
+      "activeRateIds": [
+        "2YFR-OO[1]",
+        "2YFR-OO[2]"
+      ]
+    },
+    {
+      "id": "2YFR-OO_95_2m_fixed_2_PI",
+      "rateRefId": "",
+      "features": {
+        "offset": 0,
+        "extraRepayment": 0
+      },
+      "rateBase": 3.14,
+      "rateDiscount": 0,
+      "rateCalculated": 3.14,
+      "comparisonRate": "4.72% p.a.",
+      "hasRevert": true,
+      "rateRevert": 4.9,
+      "loanMin": 20000,
+      "loanMax": 2000000,
+      "termMin": 2,
+      "termMax": 30,
+      "lvrMin": 0,
+      "lvrMax": 95,
+      "activeRateIds": [
+        "2YFR-OO[0]",
+        "2YFR-OO[2]"
+      ]
+    },
+    {
+      "id": "3YFR-OO_95_2m_fixed_3_PI",
+      "rateRefId": "",
+      "features": {
+        "offset": 0,
+        "extraRepayment": 0
+      },
+      "rateBase": 3.24,
+      "rateDiscount": 0,
+      "rateCalculated": 3.24,
+      "comparisonRate": "4.60% p.a.",
+      "hasRevert": true,
+      "rateRevert": 4.9,
+      "loanMin": 20000,
+      "loanMax": 2000000,
+      "termMin": 3,
+      "termMax": 30,
+      "lvrMin": 0,
+      "lvrMax": 95,
+      "activeRateIds": [
+        "3YFR-OO[0]",
+        "3YFR-OO[2]"
+      ]
+    },
+    {
+      "id": "3YFR-OO_95_2m_fixed_3_IO",
+      "rateRefId": "",
+      "features": {
+        "offset": 0,
+        "extraRepayment": 0
+      },
+      "rateBase": 3.99,
+      "rateDiscount": 0,
+      "rateCalculated": 3.99,
+      "comparisonRate": "5.19% p.a.",
+      "hasRevert": true,
+      "rateRevert": 4.9,
+      "loanMin": 20000,
+      "loanMax": 2000000,
+      "termMin": 3,
+      "termMax": 30,
+      "lvrMin": 0,
+      "lvrMax": 95,
+      "activeRateIds": [
+        "3YFR-OO[1]",
+        "3YFR-OO[2]"
+      ]
+    },
+    {
+      "id": "3YFR-OO_95_2m_fixed_3_PI",
+      "rateRefId": "",
+      "features": {
+        "offset": 0,
+        "extraRepayment": 0
+      },
+      "rateBase": 3.24,
+      "rateDiscount": 0,
+      "rateCalculated": 3.24,
+      "comparisonRate": "4.60% p.a.",
+      "hasRevert": true,
+      "rateRevert": 4.9,
+      "loanMin": 20000,
+      "loanMax": 2000000,
+      "termMin": 3,
+      "termMax": 30,
+      "lvrMin": 0,
+      "lvrMax": 95,
+      "activeRateIds": [
+        "3YFR-OO[0]",
+        "3YFR-OO[2]"
+      ]
+    },
+    {
+      "id": "4YFR-OO_95_2m_fixed_4_PI",
+      "rateRefId": "",
+      "features": {
+        "offset": 0,
+        "extraRepayment": 0
+      },
+      "rateBase": 3.64,
+      "rateDiscount": 0,
+      "rateCalculated": 3.64,
+      "comparisonRate": "4.61% p.a.",
+      "hasRevert": true,
+      "rateRevert": 4.9,
+      "loanMin": 20000,
+      "loanMax": 2000000,
+      "termMin": 4,
+      "termMax": 30,
+      "lvrMin": 0,
+      "lvrMax": 95,
+      "activeRateIds": [
+        "4YFR-OO[0]",
+        "4YFR-OO[2]"
+      ]
+    },
+    {
+      "id": "4YFR-OO_95_2m_fixed_4_IO",
+      "rateRefId": "",
+      "features": {
+        "offset": 0,
+        "extraRepayment": 0
+      },
+      "rateBase": 4.19,
+      "rateDiscount": 0,
+      "rateCalculated": 4.19,
+      "comparisonRate": "5.15% p.a.",
+      "hasRevert": true,
+      "rateRevert": 4.9,
+      "loanMin": 20000,
+      "loanMax": 2000000,
+      "termMin": 4,
+      "termMax": 30,
+      "lvrMin": 0,
+      "lvrMax": 95,
+      "activeRateIds": [
+        "4YFR-OO[1]",
+        "4YFR-OO[2]"
+      ]
+    },
+    {
+      "id": "4YFR-OO_95_2m_fixed_4_PI",
+      "rateRefId": "",
+      "features": {
+        "offset": 0,
+        "extraRepayment": 0
+      },
+      "rateBase": 3.64,
+      "rateDiscount": 0,
+      "rateCalculated": 3.64,
+      "comparisonRate": "4.61% p.a.",
+      "hasRevert": true,
+      "rateRevert": 4.9,
+      "loanMin": 20000,
+      "loanMax": 2000000,
+      "termMin": 4,
+      "termMax": 30,
+      "lvrMin": 0,
+      "lvrMax": 95,
+      "activeRateIds": [
+        "4YFR-OO[0]",
+        "4YFR-OO[2]"
+      ]
+    },
+    {
+      "id": "5YFR-OO_95_2m_fixed_5_PI",
+      "rateRefId": "",
+      "features": {
+        "offset": 0,
+        "extraRepayment": 0
+      },
+      "rateBase": 3.74,
+      "rateDiscount": 0,
+      "rateCalculated": 3.74,
+      "comparisonRate": "4.56% p.a.",
+      "hasRevert": true,
+      "rateRevert": 4.9,
+      "loanMin": 20000,
+      "loanMax": 2000000,
+      "termMin": 5,
+      "termMax": 30,
+      "lvrMin": 0,
+      "lvrMax": 95,
+      "activeRateIds": [
+        "5YFR-OO[0]",
+        "5YFR-OO[2]"
+      ]
+    },
+    {
+      "id": "5YFR-OO_95_2m_fixed_5_IO",
+      "rateRefId": "",
+      "features": {
+        "offset": 0,
+        "extraRepayment": 0
+      },
+      "rateBase": 4.29,
+      "rateDiscount": 0,
+      "rateCalculated": 4.29,
+      "comparisonRate": "5.10% p.a.",
+      "hasRevert": true,
+      "rateRevert": 4.9,
+      "loanMin": 20000,
+      "loanMax": 2000000,
+      "termMin": 5,
+      "termMax": 30,
+      "lvrMin": 0,
+      "lvrMax": 95,
+      "activeRateIds": [
+        "5YFR-OO[1]",
+        "5YFR-OO[2]"
+      ]
+    },
+    {
+      "id": "5YFR-OO_95_2m_fixed_5_PI",
+      "rateRefId": "",
+      "features": {
+        "offset": 0,
+        "extraRepayment": 0
+      },
+      "rateBase": 3.74,
+      "rateDiscount": 0,
+      "rateCalculated": 3.74,
+      "comparisonRate": "4.56% p.a.",
+      "hasRevert": true,
+      "rateRevert": 4.9,
+      "loanMin": 20000,
+      "loanMax": 2000000,
+      "termMin": 5,
+      "termMax": 30,
+      "lvrMin": 0,
+      "lvrMax": 95,
+      "activeRateIds": [
+        "5YFR-OO[0]",
+        "5YFR-OO[2]"
+      ]
+    },
+    {
+      "id": "HLVP-OO_90_2m_variable_PI",
+      "rateRefId": "",
+      "features": {
+        "offset": 0,
+        "extraRepayment": 0
+      },
+      "rateBase": 4.9,
+      "rateDiscount": 1.56,
+      "rateCalculated": 3.34,
+      "comparisonRate": "3.75% p.a.",
+      "hasRevert": false,
+      "rateRevert": -1,
+      "loanMin": 100000,
+      "loanMax": 2000000,
+      "termMin": 0,
+      "termMax": 30,
+      "lvrMin": 0,
+      "lvrMax": 90,
+      "activeRateIds": [
+        "HLVP-OO[0]"
+      ]
+    },
+    {
+      "id": "HLVP-OO_90-95_2m_variable_PI",
+      "rateRefId": "",
+      "features": {
+        "offset": 0,
+        "extraRepayment": 0
+      },
+      "rateBase": 4.9,
+      "rateDiscount": 0.85,
+      "rateCalculated": 4.05,
+      "comparisonRate": "4.44% p.a.",
+      "hasRevert": false,
+      "rateRevert": -1,
+      "loanMin": 100000,
+      "loanMax": 2000000,
+      "termMin": 0,
+      "termMax": 30,
+      "lvrMin": 90,
+      "lvrMax": 95,
+      "activeRateIds": [
+        "HLVP-OO[1]"
+      ]
+    },
+    {
+      "id": "HLVP-OO_90-95_2m_variable_5_IO",
+      "rateRefId": "",
+      "features": {
+        "offset": 0,
+        "extraRepayment": 0
+      },
+      "rateBase": 5.45,
+      "rateDiscount": 0.85,
+      "rateCalculated": 4.6,
+      "comparisonRate": "4.98% p.a.",
+      "hasRevert": true,
+      "rateRevert": 4.05,
+      "loanMin": 100000,
+      "loanMax": 2000000,
+      "termMin": 5,
+      "termMax": 30,
+      "lvrMin": 90,
+      "lvrMax": 95,
+      "activeRateIds": [
+        "HLVP-OO[2]",
+        "HLVP-OO[1]"
+      ]
+    },
+    {
+      "id": "1YFP-OO_95_2m_fixed_1_PI",
+      "rateRefId": "",
+      "features": {
+        "offset": 0,
+        "extraRepayment": 0
+      },
+      "rateBase": 2.99,
+      "rateDiscount": 0,
+      "rateCalculated": 2.99,
+      "comparisonRate": "4.34% p.a.",
+      "hasRevert": true,
+      "rateRevert": 4.05,
+      "loanMin": 100000,
+      "loanMax": 2000000,
+      "termMin": 1,
+      "termMax": 30,
+      "lvrMin": 0,
+      "lvrMax": 95,
+      "activeRateIds": [
+        "1YFP-OO[0]",
+        "1YFP-OO[2]"
+      ]
+    },
+    {
+      "id": "1YFP-OO_95_2m_fixed_1_IO",
+      "rateRefId": "",
+      "features": {
+        "offset": 0,
+        "extraRepayment": 0
+      },
+      "rateBase": 3.74,
+      "rateDiscount": 0,
+      "rateCalculated": 3.74,
+      "comparisonRate": "4.90% p.a.",
+      "hasRevert": true,
+      "rateRevert": 4.05,
+      "loanMin": 100000,
+      "loanMax": 2000000,
+      "termMin": 1,
+      "termMax": 30,
+      "lvrMin": 0,
+      "lvrMax": 95,
+      "activeRateIds": [
+        "1YFP-OO[1]",
+        "1YFP-OO[2]"
+      ]
+    },
+    {
+      "id": "1YFP-OO_95_2m_fixed_1_PI",
+      "rateRefId": "",
+      "features": {
+        "offset": 0,
+        "extraRepayment": 0
+      },
+      "rateBase": 2.99,
+      "rateDiscount": 0,
+      "rateCalculated": 2.99,
+      "comparisonRate": "4.34% p.a.",
+      "hasRevert": true,
+      "rateRevert": 4.05,
+      "loanMin": 100000,
+      "loanMax": 2000000,
+      "termMin": 1,
+      "termMax": 30,
+      "lvrMin": 0,
+      "lvrMax": 95,
+      "activeRateIds": [
+        "1YFP-OO[0]",
+        "1YFP-OO[2]"
+      ]
+    },
+    {
+      "id": "2YFP-OO_95_2m_fixed_2_PI",
+      "rateRefId": "",
+      "features": {
+        "offset": 0,
+        "extraRepayment": 0
+      },
+      "rateBase": 2.99,
+      "rateDiscount": 0,
+      "rateCalculated": 2.99,
+      "comparisonRate": "4.25% p.a.",
+      "hasRevert": true,
+      "rateRevert": 4.05,
+      "loanMin": 100000,
+      "loanMax": 2000000,
+      "termMin": 2,
+      "termMax": 30,
+      "lvrMin": 0,
+      "lvrMax": 95,
+      "activeRateIds": [
+        "2YFP-OO[0]",
+        "2YFP-OO[2]"
+      ]
+    },
+    {
+      "id": "2YFP-OO_95_2m_fixed_2_IO",
+      "rateRefId": "",
+      "features": {
+        "offset": 0,
+        "extraRepayment": 0
+      },
+      "rateBase": 3.74,
+      "rateDiscount": 0,
+      "rateCalculated": 3.74,
+      "comparisonRate": "4.82% p.a.",
+      "hasRevert": true,
+      "rateRevert": 4.05,
+      "loanMin": 100000,
+      "loanMax": 2000000,
+      "termMin": 2,
+      "termMax": 30,
+      "lvrMin": 0,
+      "lvrMax": 95,
+      "activeRateIds": [
+        "2YFP-OO[1]",
+        "2YFP-OO[2]"
+      ]
+    },
+    {
+      "id": "2YFP-OO_95_2m_fixed_2_PI",
+      "rateRefId": "",
+      "features": {
+        "offset": 0,
+        "extraRepayment": 0
+      },
+      "rateBase": 2.99,
+      "rateDiscount": 0,
+      "rateCalculated": 2.99,
+      "comparisonRate": "4.25% p.a.",
+      "hasRevert": true,
+      "rateRevert": 4.05,
+      "loanMin": 100000,
+      "loanMax": 2000000,
+      "termMin": 2,
+      "termMax": 30,
+      "lvrMin": 0,
+      "lvrMax": 95,
+      "activeRateIds": [
+        "2YFP-OO[0]",
+        "2YFP-OO[2]"
+      ]
+    },
+    {
+      "id": "3YFP-OO_95_2m_fixed_3_PI",
+      "rateRefId": "",
+      "features": {
+        "offset": 0,
+        "extraRepayment": 0
+      },
+      "rateBase": 3.09,
+      "rateDiscount": 0,
+      "rateCalculated": 3.09,
+      "comparisonRate": "4.20% p.a.",
+      "hasRevert": true,
+      "rateRevert": 4.05,
+      "loanMin": 100000,
+      "loanMax": 2000000,
+      "termMin": 3,
+      "termMax": 30,
+      "lvrMin": 0,
+      "lvrMax": 95,
+      "activeRateIds": [
+        "3YFP-OO[0]",
+        "3YFP-OO[2]"
+      ]
+    },
+    {
+      "id": "3YFP-OO_95_2m_fixed_3_IO",
+      "rateRefId": "",
+      "features": {
+        "offset": 0,
+        "extraRepayment": 0
+      },
+      "rateBase": 3.84,
+      "rateDiscount": 0,
+      "rateCalculated": 3.84,
+      "comparisonRate": "4.78% p.a.",
+      "hasRevert": true,
+      "rateRevert": 4.05,
+      "loanMin": 100000,
+      "loanMax": 2000000,
+      "termMin": 3,
+      "termMax": 30,
+      "lvrMin": 0,
+      "lvrMax": 95,
+      "activeRateIds": [
+        "3YFP-OO[1]",
+        "3YFP-OO[2]"
+      ]
+    },
+    {
+      "id": "3YFP-OO_95_2m_fixed_3_PI",
+      "rateRefId": "",
+      "features": {
+        "offset": 0,
+        "extraRepayment": 0
+      },
+      "rateBase": 3.09,
+      "rateDiscount": 0,
+      "rateCalculated": 3.09,
+      "comparisonRate": "4.20% p.a.",
+      "hasRevert": true,
+      "rateRevert": 4.05,
+      "loanMin": 100000,
+      "loanMax": 2000000,
+      "termMin": 3,
+      "termMax": 30,
+      "lvrMin": 0,
+      "lvrMax": 95,
+      "activeRateIds": [
+        "3YFP-OO[0]",
+        "3YFP-OO[2]"
+      ]
+    },
+    {
+      "id": "4YFP-OO_95_2m_fixed_4_PI",
+      "rateRefId": "",
+      "features": {
+        "offset": 0,
+        "extraRepayment": 0
+      },
+      "rateBase": 3.49,
+      "rateDiscount": 0,
+      "rateCalculated": 3.49,
+      "comparisonRate": "4.26% p.a.",
+      "hasRevert": true,
+      "rateRevert": 4.05,
+      "loanMin": 100000,
+      "loanMax": 2000000,
+      "termMin": 4,
+      "termMax": 30,
+      "lvrMin": 0,
+      "lvrMax": 95,
+      "activeRateIds": [
+        "4YFP-OO[0]",
+        "4YFP-OO[2]"
+      ]
+    },
+    {
+      "id": "4YFP-OO_95_2m_fixed_4_IO",
+      "rateRefId": "",
+      "features": {
+        "offset": 0,
+        "extraRepayment": 0
+      },
+      "rateBase": 4.04,
+      "rateDiscount": 0,
+      "rateCalculated": 4.04,
+      "comparisonRate": "4.79% p.a.",
+      "hasRevert": true,
+      "rateRevert": 4.05,
+      "loanMin": 100000,
+      "loanMax": 2000000,
+      "termMin": 4,
+      "termMax": 30,
+      "lvrMin": 0,
+      "lvrMax": 95,
+      "activeRateIds": [
+        "4YFP-OO[1]",
+        "4YFP-OO[2]"
+      ]
+    },
+    {
+      "id": "4YFP-OO_95_2m_fixed_4_PI",
+      "rateRefId": "",
+      "features": {
+        "offset": 0,
+        "extraRepayment": 0
+      },
+      "rateBase": 3.49,
+      "rateDiscount": 0,
+      "rateCalculated": 3.49,
+      "comparisonRate": "4.26% p.a.",
+      "hasRevert": true,
+      "rateRevert": 4.05,
+      "loanMin": 100000,
+      "loanMax": 2000000,
+      "termMin": 4,
+      "termMax": 30,
+      "lvrMin": 0,
+      "lvrMax": 95,
+      "activeRateIds": [
+        "4YFP-OO[0]",
+        "4YFP-OO[2]"
+      ]
+    },
+    {
+      "id": "5YFP-OO_95_2m_fixed_5_PI",
+      "rateRefId": "",
+      "features": {
+        "offset": 0,
+        "extraRepayment": 0
+      },
+      "rateBase": 3.59,
+      "rateDiscount": 0,
+      "rateCalculated": 3.59,
+      "comparisonRate": "4.26% p.a.",
+      "hasRevert": true,
+      "rateRevert": 4.05,
+      "loanMin": 100000,
+      "loanMax": 2000000,
+      "termMin": 5,
+      "termMax": 30,
+      "lvrMin": 0,
+      "lvrMax": 95,
+      "activeRateIds": [
+        "5YFP-OO[0]",
+        "5YFP-OO[2]"
+      ]
+    },
+    {
+      "id": "5YFP-OO_95_2m_fixed_5_IO",
+      "rateRefId": "",
+      "features": {
+        "offset": 0,
+        "extraRepayment": 0
+      },
+      "rateBase": 4.14,
+      "rateDiscount": 0,
+      "rateCalculated": 4.14,
+      "comparisonRate": "4.79% p.a.",
+      "hasRevert": true,
+      "rateRevert": 4.05,
+      "loanMin": 100000,
+      "loanMax": 2000000,
+      "termMin": 5,
+      "termMax": 30,
+      "lvrMin": 0,
+      "lvrMax": 95,
+      "activeRateIds": [
+        "5YFP-OO[1]",
+        "5YFP-OO[2]"
+      ]
+    },
+    {
+      "id": "5YFP-OO_95_2m_fixed_5_PI",
+      "rateRefId": "",
+      "features": {
+        "offset": 0,
+        "extraRepayment": 0
+      },
+      "rateBase": 3.59,
+      "rateDiscount": 0,
+      "rateCalculated": 3.59,
+      "comparisonRate": "4.26% p.a.",
+      "hasRevert": true,
+      "rateRevert": 4.05,
+      "loanMin": 100000,
+      "loanMax": 2000000,
+      "termMin": 5,
+      "termMax": 30,
+      "lvrMin": 0,
+      "lvrMax": 95,
+      "activeRateIds": [
+        "5YFP-OO[0]",
+        "5YFP-OO[2]"
+      ]
+    },
+    {
+      "id": "3YFP-FHL-OO_95_2m_fixed_3_PI",
+      "rateRefId": "",
+      "features": {
+        "offset": 0,
+        "extraRepayment": 0
+      },
+      "rateBase": 3.09,
+      "rateDiscount": 0.1,
+      "rateCalculated": 2.99,
+      "comparisonRate": "4.17% p.a.",
+      "hasRevert": true,
+      "rateRevert": 4.05,
+      "loanMin": 100000,
+      "loanMax": 2000000,
+      "termMin": 3,
+      "termMax": 30,
+      "lvrMin": 0,
+      "lvrMax": 95,
+      "activeRateIds": [
+        "3YFP-FHL-OO[0]",
+        "3YFP-FHL-OO[2]"
+      ]
+    },
+    {
+      "id": "3YFP-FHL-OO_95_2m_fixed_3_IO",
+      "rateRefId": "",
+      "features": {
+        "offset": 0,
+        "extraRepayment": 0
+      },
+      "rateBase": 3.84,
+      "rateDiscount": 0.1,
+      "rateCalculated": 3.74,
+      "comparisonRate": "4.75% p.a.",
+      "hasRevert": true,
+      "rateRevert": 4.05,
+      "loanMin": 100000,
+      "loanMax": 2000000,
+      "termMin": 3,
+      "termMax": 30,
+      "lvrMin": 0,
+      "lvrMax": 95,
+      "activeRateIds": [
+        "3YFP-FHL-OO[1]",
+        "3YFP-FHL-OO[2]"
+      ]
+    },
+    {
+      "id": "3YFP-FHL-OO_95_2m_fixed_3_PI",
+      "rateRefId": "",
+      "features": {
+        "offset": 0,
+        "extraRepayment": 0
+      },
+      "rateBase": 3.09,
+      "rateDiscount": 0.1,
+      "rateCalculated": 2.99,
+      "comparisonRate": "4.17% p.a.",
+      "hasRevert": true,
+      "rateRevert": 4.05,
+      "loanMin": 100000,
+      "loanMax": 2000000,
+      "termMin": 3,
+      "termMax": 30,
+      "lvrMin": 0,
+      "lvrMax": 95,
+      "activeRateIds": [
+        "3YFP-FHL-OO[0]",
+        "3YFP-FHL-OO[2]"
+      ]
+    },
+    {
+      "id": "SVRR-I_92_2m_variable_PI",
+      "rateRefId": "",
+      "features": {
+        "offset": 0,
+        "extraRepayment": 0
+      },
+      "rateBase": 5.55,
+      "rateDiscount": 0,
+      "rateCalculated": 5.55,
+      "comparisonRate": "5.60% p.a.",
+      "hasRevert": false,
+      "rateRevert": -1,
+      "loanMin": 20000,
+      "loanMax": 2000000,
+      "termMin": 0,
+      "termMax": 30,
+      "lvrMin": 0,
+      "lvrMax": 92,
+      "activeRateIds": [
+        "SVRR-I[0]"
+      ]
+    },
+    {
+      "id": "SVRR-I_92_2m_variable_5_IO",
+      "rateRefId": "",
+      "features": {
+        "offset": 0,
+        "extraRepayment": 0
+      },
+      "rateBase": 5.96,
+      "rateDiscount": 0,
+      "rateCalculated": 5.96,
+      "comparisonRate": "6.01% p.a.",
+      "hasRevert": true,
+      "rateRevert": 5.55,
+      "loanMin": 20000,
+      "loanMax": 2000000,
+      "termMin": 5,
+      "termMax": 30,
+      "lvrMin": 0,
+      "lvrMax": 92,
+      "activeRateIds": [
+        "SVRR-I[1]",
+        "SVRR-I[0]"
+      ]
+    },
+    {
+      "id": "SV-I_90_2m_variable_PI",
+      "rateRefId": "",
+      "features": {
+        "offset": 0,
+        "extraRepayment": 0
+      },
+      "rateBase": 5.55,
+      "rateDiscount": 0,
+      "rateCalculated": 5.55,
+      "comparisonRate": "5.60% p.a.",
+      "hasRevert": false,
+      "rateRevert": -1,
+      "loanMin": 20000,
+      "loanMax": 2000000,
+      "termMin": 0,
+      "termMax": 30,
+      "lvrMin": 0,
+      "lvrMax": 90,
+      "activeRateIds": [
+        "SV-I[0]"
+      ]
+    },
+    {
+      "id": "SV-I_80_2m_variable_5_IO",
+      "rateRefId": "",
+      "features": {
+        "offset": 0,
+        "extraRepayment": 0
+      },
+      "rateBase": 5.96,
+      "rateDiscount": 0,
+      "rateCalculated": 5.96,
+      "comparisonRate": "6.01% p.a.",
+      "hasRevert": true,
+      "rateRevert": 5.55,
+      "loanMin": 20000,
+      "loanMax": 2000000,
+      "termMin": 5,
+      "termMax": 30,
+      "lvrMin": 0,
+      "lvrMax": 80,
+      "activeRateIds": [
+        "SV-I[1]",
+        "SV-I[0]"
+      ]
+    },
+    {
+      "id": "BV-I_80_2m_variable_PI",
+      "rateRefId": "",
+      "features": {
+        "offset": 0,
+        "extraRepayment": 0
+      },
+      "rateBase": 4.72,
+      "rateDiscount": 0,
+      "rateCalculated": 4.72,
+      "comparisonRate": "4.77% p.a.",
+      "hasRevert": false,
+      "rateRevert": -1,
+      "loanMin": 50000,
+      "loanMax": 2000000,
+      "termMin": 0,
+      "termMax": 30,
+      "lvrMin": 0,
+      "lvrMax": 80,
+      "activeRateIds": [
+        "BV-I[0]"
+      ]
+    },
+    {
+      "id": "BV-I_80-90_2m_variable_PI",
+      "rateRefId": "",
+      "features": {
+        "offset": 0,
+        "extraRepayment": 0
+      },
+      "rateBase": 4.97,
+      "rateDiscount": 0,
+      "rateCalculated": 4.97,
+      "comparisonRate": "5.02% p.a.",
+      "hasRevert": false,
+      "rateRevert": -1,
+      "loanMin": 50000,
+      "loanMax": 2000000,
+      "termMin": 0,
+      "termMax": 30,
+      "lvrMin": 80,
+      "lvrMax": 90,
+      "activeRateIds": [
+        "BV-I[1]"
+      ]
+    },
+    {
+      "id": "BV-I_80-90_2m_variable_5_IO",
+      "rateRefId": "",
+      "features": {
+        "offset": 0,
+        "extraRepayment": 0
+      },
+      "rateBase": 5.08,
+      "rateDiscount": 0,
+      "rateCalculated": 5.08,
+      "comparisonRate": "5.13% p.a.",
+      "hasRevert": true,
+      "rateRevert": 4.97,
+      "loanMin": 50000,
+      "loanMax": 2000000,
+      "termMin": 5,
+      "termMax": 30,
+      "lvrMin": 80,
+      "lvrMax": 90,
+      "activeRateIds": [
+        "BV-I[2]",
+        "BV-I[1]"
+      ]
+    },
+    {
+      "id": "BV-I_80-90_2m_variable_5_IO",
+      "rateRefId": "",
+      "features": {
+        "offset": 0,
+        "extraRepayment": 0
+      },
+      "rateBase": 5.38,
+      "rateDiscount": 0,
+      "rateCalculated": 5.38,
+      "comparisonRate": "5.43% p.a.",
+      "hasRevert": true,
+      "rateRevert": 4.97,
+      "loanMin": 50000,
+      "loanMax": 2000000,
+      "termMin": 5,
+      "termMax": 30,
+      "lvrMin": 80,
+      "lvrMax": 90,
+      "activeRateIds": [
+        "BV-I[3]",
+        "BV-I[1]"
+      ]
+    },
+    {
+      "id": "1YFR-I_90_2m_fixed_1_PI",
+      "rateRefId": "",
+      "features": {
+        "offset": 0,
+        "extraRepayment": 0
+      },
+      "rateBase": 3.58,
+      "rateDiscount": 0,
+      "rateCalculated": 3.58,
+      "comparisonRate": "5.50% p.a.",
+      "hasRevert": true,
+      "rateRevert": 5.55,
+      "loanMin": 20000,
+      "loanMax": 2000000,
+      "termMin": 1,
+      "termMax": 30,
+      "lvrMin": 0,
+      "lvrMax": 90,
+      "activeRateIds": [
+        "1YFR-I[0]",
+        "1YFR-I[2]"
+      ]
+    },
+    {
+      "id": "1YFR-I_80_2m_fixed_1_IO",
+      "rateRefId": "",
+      "features": {
+        "offset": 0,
+        "extraRepayment": 0
+      },
+      "rateBase": 3.89,
+      "rateDiscount": 0,
+      "rateCalculated": 3.89,
+      "comparisonRate": "5.89% p.a.",
+      "hasRevert": true,
+      "rateRevert": 5.55,
+      "loanMin": 20000,
+      "loanMax": 2000000,
+      "termMin": 1,
+      "termMax": 30,
+      "lvrMin": 0,
+      "lvrMax": 80,
+      "activeRateIds": [
+        "1YFR-I[1]",
+        "1YFR-I[2]"
+      ]
+    },
+    {
+      "id": "1YFR-I_90_2m_fixed_1_PI",
+      "rateRefId": "",
+      "features": {
+        "offset": 0,
+        "extraRepayment": 0
+      },
+      "rateBase": 3.58,
+      "rateDiscount": 0,
+      "rateCalculated": 3.58,
+      "comparisonRate": "5.50% p.a.",
+      "hasRevert": true,
+      "rateRevert": 5.55,
+      "loanMin": 20000,
+      "loanMax": 2000000,
+      "termMin": 1,
+      "termMax": 30,
+      "lvrMin": 0,
+      "lvrMax": 90,
+      "activeRateIds": [
+        "1YFR-I[0]",
+        "1YFR-I[2]"
+      ]
+    },
+    {
+      "id": "2YFR-I_90_2m_fixed_2_PI",
+      "rateRefId": "",
+      "features": {
+        "offset": 0,
+        "extraRepayment": 0
+      },
+      "rateBase": 3.58,
+      "rateDiscount": 0,
+      "rateCalculated": 3.58,
+      "comparisonRate": "5.32% p.a.",
+      "hasRevert": true,
+      "rateRevert": 5.55,
+      "loanMin": 20000,
+      "loanMax": 2000000,
+      "termMin": 2,
+      "termMax": 30,
+      "lvrMin": 0,
+      "lvrMax": 90,
+      "activeRateIds": [
+        "2YFR-I[0]",
+        "2YFR-I[2]"
+      ]
+    },
+    {
+      "id": "2YFR-I_80_2m_fixed_2_IO",
+      "rateRefId": "",
+      "features": {
+        "offset": 0,
+        "extraRepayment": 0
+      },
+      "rateBase": 3.89,
+      "rateDiscount": 0,
+      "rateCalculated": 3.89,
+      "comparisonRate": "5.70% p.a.",
+      "hasRevert": true,
+      "rateRevert": 5.55,
+      "loanMin": 20000,
+      "loanMax": 2000000,
+      "termMin": 2,
+      "termMax": 30,
+      "lvrMin": 0,
+      "lvrMax": 80,
+      "activeRateIds": [
+        "2YFR-I[1]",
+        "2YFR-I[2]"
+      ]
+    },
+    {
+      "id": "2YFR-I_90_2m_fixed_2_PI",
+      "rateRefId": "",
+      "features": {
+        "offset": 0,
+        "extraRepayment": 0
+      },
+      "rateBase": 3.58,
+      "rateDiscount": 0,
+      "rateCalculated": 3.58,
+      "comparisonRate": "5.32% p.a.",
+      "hasRevert": true,
+      "rateRevert": 5.55,
+      "loanMin": 20000,
+      "loanMax": 2000000,
+      "termMin": 2,
+      "termMax": 30,
+      "lvrMin": 0,
+      "lvrMax": 90,
+      "activeRateIds": [
+        "2YFR-I[0]",
+        "2YFR-I[2]"
+      ]
+    },
+    {
+      "id": "3YFR-I_90_2m_fixed_3_PI",
+      "rateRefId": "",
+      "features": {
+        "offset": 0,
+        "extraRepayment": 0
+      },
+      "rateBase": 3.68,
+      "rateDiscount": 0,
+      "rateCalculated": 3.68,
+      "comparisonRate": "5.18% p.a.",
+      "hasRevert": true,
+      "rateRevert": 5.55,
+      "loanMin": 20000,
+      "loanMax": 2000000,
+      "termMin": 3,
+      "termMax": 30,
+      "lvrMin": 0,
+      "lvrMax": 90,
+      "activeRateIds": [
+        "3YFR-I[0]",
+        "3YFR-I[2]"
+      ]
+    },
+    {
+      "id": "3YFR-I_80_2m_fixed_3_IO",
+      "rateRefId": "",
+      "features": {
+        "offset": 0,
+        "extraRepayment": 0
+      },
+      "rateBase": 3.99,
+      "rateDiscount": 0,
+      "rateCalculated": 3.99,
+      "comparisonRate": "5.56% p.a.",
+      "hasRevert": true,
+      "rateRevert": 5.55,
+      "loanMin": 20000,
+      "loanMax": 2000000,
+      "termMin": 3,
+      "termMax": 30,
+      "lvrMin": 0,
+      "lvrMax": 80,
+      "activeRateIds": [
+        "3YFR-I[1]",
+        "3YFR-I[2]"
+      ]
+    },
+    {
+      "id": "3YFR-I_90_2m_fixed_3_PI",
+      "rateRefId": "",
+      "features": {
+        "offset": 0,
+        "extraRepayment": 0
+      },
+      "rateBase": 3.68,
+      "rateDiscount": 0,
+      "rateCalculated": 3.68,
+      "comparisonRate": "5.18% p.a.",
+      "hasRevert": true,
+      "rateRevert": 5.55,
+      "loanMin": 20000,
+      "loanMax": 2000000,
+      "termMin": 3,
+      "termMax": 30,
+      "lvrMin": 0,
+      "lvrMax": 90,
+      "activeRateIds": [
+        "3YFR-I[0]",
+        "3YFR-I[2]"
+      ]
+    },
+    {
+      "id": "4YFR-I_90_2m_fixed_4_PI",
+      "rateRefId": "",
+      "features": {
+        "offset": 0,
+        "extraRepayment": 0
+      },
+      "rateBase": 4.04,
+      "rateDiscount": 0,
+      "rateCalculated": 4.04,
+      "comparisonRate": "5.16% p.a.",
+      "hasRevert": true,
+      "rateRevert": 5.55,
+      "loanMin": 20000,
+      "loanMax": 2000000,
+      "termMin": 4,
+      "termMax": 30,
+      "lvrMin": 0,
+      "lvrMax": 90,
+      "activeRateIds": [
+        "4YFR-I[0]",
+        "4YFR-I[2]"
+      ]
+    },
+    {
+      "id": "4YFR-I_80_2m_fixed_4_IO",
+      "rateRefId": "",
+      "features": {
+        "offset": 0,
+        "extraRepayment": 0
+      },
+      "rateBase": 4.44,
+      "rateDiscount": 0,
+      "rateCalculated": 4.44,
+      "comparisonRate": "5.56% p.a.",
+      "hasRevert": true,
+      "rateRevert": 5.55,
+      "loanMin": 20000,
+      "loanMax": 2000000,
+      "termMin": 4,
+      "termMax": 30,
+      "lvrMin": 0,
+      "lvrMax": 80,
+      "activeRateIds": [
+        "4YFR-I[1]",
+        "4YFR-I[2]"
+      ]
+    },
+    {
+      "id": "4YFR-I_90_2m_fixed_4_PI",
+      "rateRefId": "",
+      "features": {
+        "offset": 0,
+        "extraRepayment": 0
+      },
+      "rateBase": 4.04,
+      "rateDiscount": 0,
+      "rateCalculated": 4.04,
+      "comparisonRate": "5.16% p.a.",
+      "hasRevert": true,
+      "rateRevert": 5.55,
+      "loanMin": 20000,
+      "loanMax": 2000000,
+      "termMin": 4,
+      "termMax": 30,
+      "lvrMin": 0,
+      "lvrMax": 90,
+      "activeRateIds": [
+        "4YFR-I[0]",
+        "4YFR-I[2]"
+      ]
+    },
+    {
+      "id": "5YFR-I_90_2m_fixed_5_PI",
+      "rateRefId": "",
+      "features": {
+        "offset": 0,
+        "extraRepayment": 0
+      },
+      "rateBase": 4.14,
+      "rateDiscount": 0,
+      "rateCalculated": 4.14,
+      "comparisonRate": "5.10% p.a.",
+      "hasRevert": true,
+      "rateRevert": 5.55,
+      "loanMin": 20000,
+      "loanMax": 2000000,
+      "termMin": 5,
+      "termMax": 30,
+      "lvrMin": 0,
+      "lvrMax": 90,
+      "activeRateIds": [
+        "5YFR-I[0]",
+        "5YFR-I[2]"
+      ]
+    },
+    {
+      "id": "5YFR-I_80_2m_fixed_5_IO",
+      "rateRefId": "",
+      "features": {
+        "offset": 0,
+        "extraRepayment": 0
+      },
+      "rateBase": 4.54,
+      "rateDiscount": 0,
+      "rateCalculated": 4.54,
+      "comparisonRate": "5.50% p.a.",
+      "hasRevert": true,
+      "rateRevert": 5.55,
+      "loanMin": 20000,
+      "loanMax": 2000000,
+      "termMin": 5,
+      "termMax": 30,
+      "lvrMin": 0,
+      "lvrMax": 80,
+      "activeRateIds": [
+        "5YFR-I[1]",
+        "5YFR-I[2]"
+      ]
+    },
+    {
+      "id": "5YFR-I_90_2m_fixed_5_PI",
+      "rateRefId": "",
+      "features": {
+        "offset": 0,
+        "extraRepayment": 0
+      },
+      "rateBase": 4.14,
+      "rateDiscount": 0,
+      "rateCalculated": 4.14,
+      "comparisonRate": "5.10% p.a.",
+      "hasRevert": true,
+      "rateRevert": 5.55,
+      "loanMin": 20000,
+      "loanMax": 2000000,
+      "termMin": 5,
+      "termMax": 30,
+      "lvrMin": 0,
+      "lvrMax": 90,
+      "activeRateIds": [
+        "5YFR-I[0]",
+        "5YFR-I[2]"
+      ]
+    },
+    {
+      "id": "HLVP-I_90_2m_variable_PI",
+      "rateRefId": "",
+      "features": {
+        "offset": 0,
+        "extraRepayment": 0
+      },
+      "rateBase": 5.55,
+      "rateDiscount": 1.87,
+      "rateCalculated": 3.68,
+      "comparisonRate": "4.08% p.a.",
+      "hasRevert": false,
+      "rateRevert": -1,
+      "loanMin": 100000,
+      "loanMax": 2000000,
+      "termMin": 0,
+      "termMax": 30,
+      "lvrMin": 0,
+      "lvrMax": 90,
+      "activeRateIds": [
+        "HLVP-I[0]"
+      ]
+    },
+    {
+      "id": "HLVP-I_90-92_2m_variable_PI",
+      "rateRefId": "",
+      "features": {
+        "offset": 0,
+        "extraRepayment": 0
+      },
+      "rateBase": 5.55,
+      "rateDiscount": 0.9,
+      "rateCalculated": 4.65,
+      "comparisonRate": "5.03% p.a.",
+      "hasRevert": false,
+      "rateRevert": -1,
+      "loanMin": 100000,
+      "loanMax": 2000000,
+      "termMin": 0,
+      "termMax": 30,
+      "lvrMin": 90,
+      "lvrMax": 92,
+      "activeRateIds": [
+        "HLVP-I[1]"
+      ]
+    },
+    {
+      "id": "HLVP-I_90-92_2m_variable_5_IO",
+      "rateRefId": "",
+      "features": {
+        "offset": 0,
+        "extraRepayment": 0
+      },
+      "rateBase": 5.96,
+      "rateDiscount": 1.87,
+      "rateCalculated": 4.09,
+      "comparisonRate": "4.48% p.a.",
+      "hasRevert": true,
+      "rateRevert": 4.65,
+      "loanMin": 100000,
+      "loanMax": 2000000,
+      "termMin": 5,
+      "termMax": 30,
+      "lvrMin": 90,
+      "lvrMax": 92,
+      "activeRateIds": [
+        "HLVP-I[2]",
+        "HLVP-I[1]"
+      ]
+    },
+    {
+      "id": "HLVP-I_90-92_2m_variable_5_IO",
+      "rateRefId": "",
+      "features": {
+        "offset": 0,
+        "extraRepayment": 0
+      },
+      "rateBase": 5.96,
+      "rateDiscount": 0.9,
+      "rateCalculated": 5.06,
+      "comparisonRate": "5.43% p.a.",
+      "hasRevert": true,
+      "rateRevert": 4.65,
+      "loanMin": 100000,
+      "loanMax": 2000000,
+      "termMin": 5,
+      "termMax": 30,
+      "lvrMin": 90,
+      "lvrMax": 92,
+      "activeRateIds": [
+        "HLVP-I[3]",
+        "HLVP-I[1]"
+      ]
+    },
+    {
+      "id": "1YFP-I_90_2m_fixed_1_PI",
+      "rateRefId": "",
+      "features": {
+        "offset": 0,
+        "extraRepayment": 0
+      },
+      "rateBase": 3.49,
+      "rateDiscount": 0,
+      "rateCalculated": 3.49,
+      "comparisonRate": "4.92% p.a.",
+      "hasRevert": true,
+      "rateRevert": 4.65,
+      "loanMin": 100000,
+      "loanMax": 2000000,
+      "termMin": 1,
+      "termMax": 30,
+      "lvrMin": 0,
+      "lvrMax": 90,
+      "activeRateIds": [
+        "1YFP-I[0]",
+        "1YFP-I[2]"
+      ]
+    },
+    {
+      "id": "1YFP-I_80_2m_fixed_1_IO",
+      "rateRefId": "",
+      "features": {
+        "offset": 0,
+        "extraRepayment": 0
+      },
+      "rateBase": 3.74,
+      "rateDiscount": 0,
+      "rateCalculated": 3.74,
+      "comparisonRate": "5.30% p.a.",
+      "hasRevert": true,
+      "rateRevert": 4.65,
+      "loanMin": 100000,
+      "loanMax": 2000000,
+      "termMin": 1,
+      "termMax": 30,
+      "lvrMin": 0,
+      "lvrMax": 80,
+      "activeRateIds": [
+        "1YFP-I[1]",
+        "1YFP-I[2]"
+      ]
+    },
+    {
+      "id": "1YFP-I_90_2m_fixed_1_PI",
+      "rateRefId": "",
+      "features": {
+        "offset": 0,
+        "extraRepayment": 0
+      },
+      "rateBase": 3.49,
+      "rateDiscount": 0,
+      "rateCalculated": 3.49,
+      "comparisonRate": "4.92% p.a.",
+      "hasRevert": true,
+      "rateRevert": 4.65,
+      "loanMin": 100000,
+      "loanMax": 2000000,
+      "termMin": 1,
+      "termMax": 30,
+      "lvrMin": 0,
+      "lvrMax": 90,
+      "activeRateIds": [
+        "1YFP-I[0]",
+        "1YFP-I[2]"
+      ]
+    },
+    {
+      "id": "2YFP-I_90_2m_fixed_2_PI",
+      "rateRefId": "",
+      "features": {
+        "offset": 0,
+        "extraRepayment": 0
+      },
+      "rateBase": 3.49,
+      "rateDiscount": 0,
+      "rateCalculated": 3.49,
+      "comparisonRate": "4.82% p.a.",
+      "hasRevert": true,
+      "rateRevert": 4.65,
+      "loanMin": 100000,
+      "loanMax": 2000000,
+      "termMin": 2,
+      "termMax": 30,
+      "lvrMin": 0,
+      "lvrMax": 90,
+      "activeRateIds": [
+        "2YFP-I[0]",
+        "2YFP-I[2]"
+      ]
+    },
+    {
+      "id": "2YFP-I_80_2m_fixed_2_IO",
+      "rateRefId": "",
+      "features": {
+        "offset": 0,
+        "extraRepayment": 0
+      },
+      "rateBase": 3.74,
+      "rateDiscount": 0,
+      "rateCalculated": 3.74,
+      "comparisonRate": "5.19% p.a.",
+      "hasRevert": true,
+      "rateRevert": 4.65,
+      "loanMin": 100000,
+      "loanMax": 2000000,
+      "termMin": 2,
+      "termMax": 30,
+      "lvrMin": 0,
+      "lvrMax": 80,
+      "activeRateIds": [
+        "2YFP-I[1]",
+        "2YFP-I[2]"
+      ]
+    },
+    {
+      "id": "2YFP-I_90_2m_fixed_2_PI",
+      "rateRefId": "",
+      "features": {
+        "offset": 0,
+        "extraRepayment": 0
+      },
+      "rateBase": 3.49,
+      "rateDiscount": 0,
+      "rateCalculated": 3.49,
+      "comparisonRate": "4.82% p.a.",
+      "hasRevert": true,
+      "rateRevert": 4.65,
+      "loanMin": 100000,
+      "loanMax": 2000000,
+      "termMin": 2,
+      "termMax": 30,
+      "lvrMin": 0,
+      "lvrMax": 90,
+      "activeRateIds": [
+        "2YFP-I[0]",
+        "2YFP-I[2]"
+      ]
+    },
+    {
+      "id": "3YFP-I_90_2m_fixed_3_PI",
+      "rateRefId": "",
+      "features": {
+        "offset": 0,
+        "extraRepayment": 0
+      },
+      "rateBase": 3.59,
+      "rateDiscount": 0,
+      "rateCalculated": 3.59,
+      "comparisonRate": "4.75% p.a.",
+      "hasRevert": true,
+      "rateRevert": 4.65,
+      "loanMin": 100000,
+      "loanMax": 2000000,
+      "termMin": 3,
+      "termMax": 30,
+      "lvrMin": 0,
+      "lvrMax": 90,
+      "activeRateIds": [
+        "3YFP-I[0]",
+        "3YFP-I[2]"
+      ]
+    },
+    {
+      "id": "3YFP-I_80_2m_fixed_3_IO",
+      "rateRefId": "",
+      "features": {
+        "offset": 0,
+        "extraRepayment": 0
+      },
+      "rateBase": 3.84,
+      "rateDiscount": 0,
+      "rateCalculated": 3.84,
+      "comparisonRate": "5.12% p.a.",
+      "hasRevert": true,
+      "rateRevert": 4.65,
+      "loanMin": 100000,
+      "loanMax": 2000000,
+      "termMin": 3,
+      "termMax": 30,
+      "lvrMin": 0,
+      "lvrMax": 80,
+      "activeRateIds": [
+        "3YFP-I[1]",
+        "3YFP-I[2]"
+      ]
+    },
+    {
+      "id": "3YFP-I_90_2m_fixed_3_PI",
+      "rateRefId": "",
+      "features": {
+        "offset": 0,
+        "extraRepayment": 0
+      },
+      "rateBase": 3.59,
+      "rateDiscount": 0,
+      "rateCalculated": 3.59,
+      "comparisonRate": "4.75% p.a.",
+      "hasRevert": true,
+      "rateRevert": 4.65,
+      "loanMin": 100000,
+      "loanMax": 2000000,
+      "termMin": 3,
+      "termMax": 30,
+      "lvrMin": 0,
+      "lvrMax": 90,
+      "activeRateIds": [
+        "3YFP-I[0]",
+        "3YFP-I[2]"
+      ]
+    },
+    {
+      "id": "4YFP-I_90_2m_fixed_4_PI",
+      "rateRefId": "",
+      "features": {
+        "offset": 0,
+        "extraRepayment": 0
+      },
+      "rateBase": 3.89,
+      "rateDiscount": 0,
+      "rateCalculated": 3.89,
+      "comparisonRate": "4.77% p.a.",
+      "hasRevert": true,
+      "rateRevert": 4.65,
+      "loanMin": 100000,
+      "loanMax": 2000000,
+      "termMin": 4,
+      "termMax": 30,
+      "lvrMin": 0,
+      "lvrMax": 90,
+      "activeRateIds": [
+        "4YFP-I[0]",
+        "4YFP-I[2]"
+      ]
+    },
+    {
+      "id": "4YFP-I_80_2m_fixed_4_IO",
+      "rateRefId": "",
+      "features": {
+        "offset": 0,
+        "extraRepayment": 0
+      },
+      "rateBase": 4.29,
+      "rateDiscount": 0,
+      "rateCalculated": 4.29,
+      "comparisonRate": "5.17% p.a.",
+      "hasRevert": true,
+      "rateRevert": 4.65,
+      "loanMin": 100000,
+      "loanMax": 2000000,
+      "termMin": 4,
+      "termMax": 30,
+      "lvrMin": 0,
+      "lvrMax": 80,
+      "activeRateIds": [
+        "4YFP-I[1]",
+        "4YFP-I[2]"
+      ]
+    },
+    {
+      "id": "4YFP-I_90_2m_fixed_4_PI",
+      "rateRefId": "",
+      "features": {
+        "offset": 0,
+        "extraRepayment": 0
+      },
+      "rateBase": 3.89,
+      "rateDiscount": 0,
+      "rateCalculated": 3.89,
+      "comparisonRate": "4.77% p.a.",
+      "hasRevert": true,
+      "rateRevert": 4.65,
+      "loanMin": 100000,
+      "loanMax": 2000000,
+      "termMin": 4,
+      "termMax": 30,
+      "lvrMin": 0,
+      "lvrMax": 90,
+      "activeRateIds": [
+        "4YFP-I[0]",
+        "4YFP-I[2]"
+      ]
+    },
+    {
+      "id": "5YFP-I_90_2m_fixed_5_PI",
+      "rateRefId": "",
+      "features": {
+        "offset": 0,
+        "extraRepayment": 0
+      },
+      "rateBase": 3.99,
+      "rateDiscount": 0,
+      "rateCalculated": 3.99,
+      "comparisonRate": "4.76% p.a.",
+      "hasRevert": true,
+      "rateRevert": 4.65,
+      "loanMin": 100000,
+      "loanMax": 2000000,
+      "termMin": 5,
+      "termMax": 30,
+      "lvrMin": 0,
+      "lvrMax": 90,
+      "activeRateIds": [
+        "5YFP-I[0]",
+        "5YFP-I[2]"
+      ]
+    },
+    {
+      "id": "5YFP-I_80_2m_fixed_5_IO",
+      "rateRefId": "",
+      "features": {
+        "offset": 0,
+        "extraRepayment": 0
+      },
+      "rateBase": 4.39,
+      "rateDiscount": 0,
+      "rateCalculated": 4.39,
+      "comparisonRate": "5.15% p.a.",
+      "hasRevert": true,
+      "rateRevert": 4.65,
+      "loanMin": 100000,
+      "loanMax": 2000000,
+      "termMin": 5,
+      "termMax": 30,
+      "lvrMin": 0,
+      "lvrMax": 80,
+      "activeRateIds": [
+        "5YFP-I[1]",
+        "5YFP-I[2]"
+      ]
+    },
+    {
+      "id": "5YFP-I_90_2m_fixed_5_PI",
+      "rateRefId": "",
+      "features": {
+        "offset": 0,
+        "extraRepayment": 0
+      },
+      "rateBase": 3.99,
+      "rateDiscount": 0,
+      "rateCalculated": 3.99,
+      "comparisonRate": "4.76% p.a.",
+      "hasRevert": true,
+      "rateRevert": 4.65,
+      "loanMin": 100000,
+      "loanMax": 2000000,
+      "termMin": 5,
+      "termMax": 30,
+      "lvrMin": 0,
+      "lvrMax": 90,
+      "activeRateIds": [
+        "5YFP-I[0]",
+        "5YFP-I[2]"
+      ]
+    },
+    {
+      "id": "OTHER_95_2m_variable_PI",
+      "rateRefId": "",
+      "features": {
+        "offset": 0,
+        "extraRepayment": 0
+      },
+      "rateBase": 5,
+      "rateDiscount": 0,
+      "rateCalculated": 5,
+      "comparisonRate": "n/a",
+      "hasRevert": false,
+      "rateRevert": -1,
+      "loanMin": 1000,
+      "loanMax": 2000000,
+      "termMin": 0,
+      "termMax": 30,
+      "lvrMin": 0,
+      "lvrMax": 95,
+      "activeRateIds": [
+        "OTHER[0]"
+      ]
+    }
+  ]
+}
